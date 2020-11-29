@@ -1,0 +1,16 @@
+{
+  "name": "node-concurrent-batches",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:ngnijland/node-concurrent-batches.git",
+  "author": "Niek Nijland <ngnijland@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc src/* --outDir dist/",
+    "dev": "nodemon --watch src --ext ts --exec \"yarn build && node dist/index.js\""
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "typescript": "^4.1.2"
+  }
+}
