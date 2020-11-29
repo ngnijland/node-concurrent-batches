@@ -6,11 +6,12 @@
   "author": "Niek Nijland <ngnijland@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc src/* --outDir dist/",
+    "build": "tsc",
     "dev": "nodemon --watch src --ext ts --exec \"yarn build && node dist/index.js\""
   },
   "devDependencies": {
     "nodemon": "^2.0.6",
+    "prettier": "^2.2.1",
     "typescript": "^4.1.2"
   }
 }
